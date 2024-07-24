@@ -44,8 +44,8 @@ jobs:
             --image $IMAGE_NAME \
             --region us-east1 \
             --platform managed \
-            --allow-unauthenticated \
-            --set-env-vars PORT=3000
+            --allow-unauthenticated 
+ 
 
 
 
