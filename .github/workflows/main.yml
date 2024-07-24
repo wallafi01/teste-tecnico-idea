@@ -24,7 +24,8 @@ jobs:
 
       # gcloud configure docker
       - name: Configure Docker
-        run: gcloud auth configure-docker --quiet
+        run: gcloud auth configure-docker us-east1-docker.pkg.dev
+        #gcloud auth configure-docker --quiet
 
       # Build Docker image
       - name: Build Docker image
